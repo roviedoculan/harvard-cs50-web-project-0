@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+        <title>Search</title>
+    </head>
+    <body>
+        <div class="body">
+            <form id="form" action="https://google.com/search">
+                <div class="header">
+                    <a href="searchImage.html">Image Search</a>
+                    <a href="searchAdvanced.html">Advanced Search</a>
+                </div>
+                <div class="content">
+                    <img class="logo-resize" src="resources/google-logo.png">
+                    <div class="search">
+                        <div class="search-bar-div">
+                            <div class="search-bar">
+                                <div class="search-icon">
+                                    <div style="margin: auto;">
+                                        <span class=".search-icon-span">
+                                            <img class="search-icon-resize" src="resources/search-icon.png">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="search-bar-inner">
+                                    <div class="search-bar-inner-space"></div>
+                                    <input class="search-bar-input" type="text" name="q">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <input class="search-button" type="submit" value="Google Search">
+                            <input class="search-button" type="button" onclick="redirectTopSearch()" value="I'm Feeling Lucky">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

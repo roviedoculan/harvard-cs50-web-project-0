@@ -1,0 +1,129 @@
+html, body {
+    height: 100%;
+}
+
+.logo-resize {
+    width: 250px;
+    height: 130px;
+}
+
+.body {
+    display: block;
+}
+
+.body .header {
+    text-align: right;
+    height: 108px;
+}
+
+.body .header a {
+    font: 13px Roboto,RobotoDraft,Arial,sans-serif;
+    height: 40px;
+    color: black;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.body .search {
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.body .search-bar-div {
+    height: 30px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.body .search-bar {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.body .search-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.body .search-icon-span {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+
+.body .search-icon-resize {
+    width: 14px;
+    height: 14px;
+}
+
+.body .search-bar-inner {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.body .search-bar-inner-space {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+}
+
+
+.body .search-bar-input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
+
+.body .search-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}

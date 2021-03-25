@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/advanced-search.css">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <div class="content">
+            <div class="logo-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="resources/google-trans-bg-logo.png">
+                    </a>
+                </div>
+            </div>
+            <div class="heading">
+                <label style="margin-left: 10px">Advanced Search</label>
+            </div>
+            <div class="divider"></div>
+            <div class="search">
+                <form id="form" action="https://google.com/search">
+                    <div style="height: 30px; display: table-cell; vertical-align: middle;">
+                        <span>Find pages with...</span>
+                    </div>    
+                    <div>
+                        <div class="search-label">
+                            <label>all these words:</label>
+                        </div>
+                        <div class="search-input">
+                            <input type="text" name="as_q">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="search-label">
+                            <label>this exact word or phrase:</label>
+                        </div>
+                        <div class="search-input">
+                            <input type="text" name="as_epq">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="search-label">
+                            <label>any of these words:</label>
+                        </div>
+                        <div class="search-input">
+                            <input type="text" name="as_oq">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="search-label">
+                            <label>none of these words:</label>
+                        </div>
+                        <div class="search-input">
+                            <input type="text" name="as_eq">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="search-label"></div>
+                        <div class="search-button-container">
+                            <input class="search-button" type="submit" value="Advanced Search">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
